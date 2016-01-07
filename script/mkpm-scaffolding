@@ -26,4 +26,4 @@ done
 # Update self. Must be last operation
 curl -#o script/x $mkpm_spec_repo/$mkpm_spec_branch/script/mkpm-scaffolding
 chmod +x script/x
-mv script/x script/mkpm-scaffolding
+exec mv script/x script/mkpm-scaffolding
